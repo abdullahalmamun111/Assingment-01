@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal style */
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+/* universal style end */
+
+/* shared style start */
+.description{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 0px;
+    opacity: 0.7;
+    }
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.sub-title{
+color: rgba(13, 19, 33, 0.7);
+font-size: 23px;
+font-weight: 665;
+line-height: 34px;
+margin: 16px 0px;
+}
+.sub-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+/* shared style end */
+body{
+    font-family: Azeret Mono;
+}
+/* navbar section start from here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 43px 142px;
+    align-items: center;
+}
+nav h3{
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+nav button{
+    width: 231px;
+    height: 54px;
+}
+nav button a{
+color: rgb(13, 19, 33);
+font-size: 19px;
+font-weight: 570;
+}
+/* navbar section end from here */
+
+/* hero section start from here */
+.hero{
+    height: 619px;
+    width: 100%;
+    display: flex;
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.hero .hero-content{
+    width: 948px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.hero .hero-content .hero-title{
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+}
+
+.hero-btn{
+border-radius: 8px;
+background: rgb(13, 19, 33);
+width: 197px;
+height: 63px;
+padding: 21px 24px 21px 24px;
+border: none;
+}
+
+.hero-btn a{
+color: rgb(255, 255, 255);
+font-size: 19px;
+font-weight: 570;
+}
+
+
+/* hero section end from here */
+
+/* why web devlopment section start from here */
+
+#why-web-dev{
+    background-color: #fafafb;
+    width: 899px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    margin-bottom: 50px;
+}
+
+#why-web-dev .content{
+    display: flex;
+    background-color: #fcfcfd;
+    padding: 48px;
+    margin: 32px 0px;
+}
+#why-web-dev .content .content-btn{
+    width: 161px;
+    height: 45px;
+}
+#why-web-dev .content .content-btn a{
+    color: rgb(13, 19, 33);
+    font-size: 19px;
+    font-weight: 595;
+    line-height: 23px;
+    opacity: 0.7;
+}
+#why-web-dev .content .text{
+    margin: 0px 15px;
+}
+/* why web devlopment section end from here */
