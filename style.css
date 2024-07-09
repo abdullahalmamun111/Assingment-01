@@ -142,3 +142,26 @@ font-weight: 570;
     margin: 0px 15px;
 }
 /* why web devlopment section end from here */
+
+/* inspiration section start from here */
+
+#inspiration{
+    width: 1083px;
+    height: 736px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+#inspiration .video iframe{
+    width: 1022px;
+    height: 522px;
+    padding: 30px;
+    border: 2px solid #d5d6d9;
+    border-radius: 10px;
+    
+}
+/* inspiration section end from here */
