@@ -4,7 +4,6 @@
 *{
 margin: 0;
 padding: 0;
-text-decoration: none;
 list-style: none;
 }
 /* universal style end */
@@ -46,6 +45,9 @@ body{
     font-family: Azeret Mono;
 }
 /* navbar section start from here */
+nav a {
+    text-decoration: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -79,6 +81,9 @@ font-weight: 570;
     background-position: center;
     align-items: center;
     margin-bottom: 80px;
+}
+.hero a{ 
+    text-decoration: none;
 }
 .hero .hero-content{
     width: 948px;
@@ -119,6 +124,9 @@ font-weight: 570;
     margin: 0 auto;
     padding: 80px 97px 80px 97px;
     margin-bottom: 50px;
+}
+#why-web-dev a{
+    text-decoration: none;
 }
 
 #why-web-dev .content{
@@ -165,3 +173,92 @@ font-weight: 570;
     
 }
 /* inspiration section end from here */
+
+/* current target session start from here */
+#target{
+    width: 1083px;
+    margin: 0 auto;
+}
+.html-skill{
+    width:269px ;
+    height: 208px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 38px;
+}
+
+.html-skill img{
+    margin-bottom: 20px;
+}
+.html-skill h1{
+color: rgb(13, 19, 33);
+font-size: 22px;
+font-weight: 770;
+line-height: 32px;
+text-align: left;
+margin-bottom: 20px;
+}
+.html-skill a{
+color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 670;
+line-height: 19px;
+}
+.css-skill{
+    width:269px ;
+    height: 208px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 38px;
+}
+
+.css-skill img{
+    margin-bottom: 20px;
+}
+.css-skill h1{
+color: rgb(13, 19, 33);
+font-size: 22px;
+font-weight: 770;
+line-height: 32px;
+text-align: left;
+margin-bottom: 20px;
+}
+.css-skill a{
+color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 670;
+line-height: 19px;
+}
+.js-skill{
+    width:269px ;
+    height: 208px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 38px;
+}
+
+.js-skill img{
+    margin-bottom: 20px;
+}
+.js-skill h1{
+color: rgb(13, 19, 33);
+font-size: 22px;
+font-weight: 770;
+line-height: 32px;
+text-align: left;
+margin-bottom: 20px;
+}
+.js-skill a{
+color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 670;
+line-height: 19px;
+}
+
+.target-skill{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* current target session end from here */
