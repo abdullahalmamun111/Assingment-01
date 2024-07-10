@@ -262,3 +262,39 @@ line-height: 19px;
     margin-bottom: 60px;
 }
 /* current target session end from here */
+
+/* next target start from here */
+.next-skills{
+    width: 1083px;
+    margin: 0 auto;
+    border: 2px solid #d5d6d9;
+    border-radius: 10px;
+    padding: 38px;
+    margin-bottom: 20px;
+}
+.skilled{
+    display: flex;
+}
+.skilled .text-info h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.skilled .text-info a{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 670;
+    line-height: 19px;
+    }
+    .skilled .text-info{
+        padding-left: 30px;
+    }
+    .skilled .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/* next target end from here */
