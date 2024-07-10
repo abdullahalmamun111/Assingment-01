@@ -72,8 +72,8 @@ font-weight: 570;
 
 /* hero section start from here */
 .hero{
-    height: 619px;
     max-width: 1366px;
+    height: 619px;
     display: flex;
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
@@ -81,6 +81,8 @@ font-weight: 570;
     background-position: center;
     align-items: center;
     margin-bottom: 80px;
+    margin: 0 auto;
+    justify-content: center;
 }
 .hero a{ 
     text-decoration: none;
