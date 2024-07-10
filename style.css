@@ -72,23 +72,18 @@ font-weight: 570;
 
 /* hero section start from here */
 .hero{
-    max-width: 1366px;
     height: 619px;
-    display: flex;
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
+    background-position: bottom center;
     margin-bottom: 80px;
     margin: 0 auto;
-    justify-content: center;
-}
+} 
 .hero a{ 
     text-decoration: none;
 }
 .hero .hero-content{
-    width: 948px;
+    width: 100%;
     margin: 0 auto;
     text-align: center; 
 }
